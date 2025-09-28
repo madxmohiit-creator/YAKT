@@ -147,8 +147,8 @@ else
 fi
 
 # Set kernel.perf_cpu_time_max_percent to 20
-log_info "Setting perf_cpu_time_max_percent to 20"
-write_value "$KERNEL_PATH/perf_cpu_time_max_percent" 20
+log_info "Setting perf_cpu_time_max_percent to " 70
+write_value "$KERNEL_PATH/perf_cpu_time_max_percent" 70
 log_info "Done."
 
 # Disable certain scheduler logs/stats
